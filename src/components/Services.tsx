@@ -17,12 +17,12 @@ interface ServiceCardProps {
 
 const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) => {
   return (
-    <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 border-t-4 border-yellow-500">
+    <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-1 border-t-4 border-yellow-500">
       <div className="bg-yellow-500 text-black p-3 rounded-full w-14 h-14 flex items-center justify-center mb-4">
         {icon}
       </div>
-      <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">{title}</h3>
-      <p className="text-gray-600 dark:text-gray-400">{description}</p>
+      <h3 className="text-xl font-bold mb-3 text-white">{title}</h3>
+      <p className="text-gray-400">{description}</p>
     </div>
   );
 };
@@ -62,7 +62,7 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 relative">
+    <section id="services" className="py-20 relative bg-gray-900">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
@@ -75,11 +75,11 @@ const Services = () => {
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Hizmetlerimiz
           </h2>
           <div className="w-24 h-1 bg-yellow-500 mx-auto"></div>
-          <p className="text-gray-600 dark:text-gray-400 mt-4 max-w-xl mx-auto">
+          <p className="text-gray-400 mt-4 max-w-xl mx-auto">
             Antakya&apos;nın her noktasına, her saatte kaliteli taksi hizmeti sunuyoruz. Size özel çözümlerimiz ile tanışın.
           </p>
         </div>

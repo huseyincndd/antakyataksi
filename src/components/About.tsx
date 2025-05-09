@@ -13,7 +13,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-white dark:bg-gray-800">
+    <section id="about" className="py-20 bg-gray-800">
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           {/* Image section */}
@@ -33,43 +33,43 @@ const About = () => {
             </div>
             
             {/* Stats */}
-            <div className="absolute bottom-8 right-8 bg-white dark:bg-gray-900 shadow-xl p-6 rounded-lg grid grid-cols-2 gap-4 w-64">
+            <div className="absolute bottom-8 right-8 bg-gray-900 shadow-xl p-6 rounded-lg grid grid-cols-2 gap-4 w-64">
               <div className="text-center">
                 <p className="text-3xl font-bold text-yellow-500">15+</p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Yıllık Deneyim</p>
+                <p className="text-sm text-gray-400">Yıllık Deneyim</p>
               </div>
               <div className="text-center">
                 <p className="text-3xl font-bold text-yellow-500">20+</p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Araç Filosu</p>
+                <p className="text-sm text-gray-400">Araç Filosu</p>
               </div>
               <div className="text-center">
                 <p className="text-3xl font-bold text-yellow-500">7/24</p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Hizmet</p>
+                <p className="text-sm text-gray-400">Hizmet</p>
               </div>
               <div className="text-center">
                 <p className="text-3xl font-bold text-yellow-500">1000+</p>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Mutlu Müşteri</p>
+                <p className="text-sm text-gray-400">Mutlu Müşteri</p>
               </div>
             </div>
           </div>
           
           {/* Content section */}
           <div className="w-full lg:w-1/2">
-            <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+            <h2 className="text-3xl font-bold text-white mb-4">
               Antakya&apos;nın Güvenilir Taksi Durağı
             </h2>
             <div className="w-24 h-1 bg-yellow-500 mb-6"></div>
             
-            <p className="text-gray-600 dark:text-gray-400 mb-6">
+            <p className="text-gray-400 mb-6">
               2005 yılından bu yana Antakya&apos;da hizmet veren taksi durağımız, müşteri memnuniyetini ön planda tutarak kaliteli hizmet sunmaya devam ediyor. Modern araç filomuz ve profesyonel sürücülerimizle şehrin her noktasına güvenli ulaşım sağlıyoruz.
             </p>
             
-            <p className="text-gray-600 dark:text-gray-400 mb-8">
+            <p className="text-gray-400 mb-8">
               Misyonumuz, yolcularımızın güvenliğini ve konforunu en üst düzeyde tutarak, dakik ve profesyonel hizmet sunmaktır. Vizyonumuz ise Antakya&apos;nın en güvenilir ve tercih edilen taksi durağı olmaktır.
             </p>
             
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
+              <h3 className="text-xl font-semibold text-white mb-4">
                 Neden Bizi Tercih Etmelisiniz?
               </h3>
               
@@ -77,7 +77,7 @@ const About = () => {
                 {advantages.map((advantage, index) => (
                   <li key={index} className="flex items-center gap-2">
                     <FaCheck className="text-yellow-500 flex-shrink-0" />
-                    <span className="text-gray-700 dark:text-gray-300">{advantage}</span>
+                    <span className="text-gray-300">{advantage}</span>
                   </li>
                 ))}
               </ul>

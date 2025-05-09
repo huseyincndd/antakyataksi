@@ -16,13 +16,13 @@ const ContactInfo: React.FC<ContactInfoProps> = ({ icon, title, content, isLink 
         {icon}
       </div>
       <div>
-        <h3 className="font-semibold text-lg text-gray-900 dark:text-white">{title}</h3>
+        <h3 className="font-semibold text-lg text-white">{title}</h3>
         {isLink ? (
-          <a href={linkHref} className="text-gray-600 dark:text-gray-400 hover:text-yellow-500 dark:hover:text-yellow-500 transition-colors">
+          <a href={linkHref} className="text-gray-400 hover:text-yellow-500 transition-colors">
             {content}
           </a>
         ) : (
-          <p className="text-gray-600 dark:text-gray-400">{content}</p>
+          <p className="text-gray-400">{content}</p>
         )}
       </div>
     </div>
@@ -31,22 +31,22 @@ const ContactInfo: React.FC<ContactInfoProps> = ({ icon, title, content, isLink 
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-900">
+    <section id="contact" className="py-20 bg-gray-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             İletişim
           </h2>
           <div className="w-24 h-1 bg-yellow-500 mx-auto"></div>
-          <p className="text-gray-600 dark:text-gray-400 mt-4 max-w-xl mx-auto">
+          <p className="text-gray-400 mt-4 max-w-xl mx-auto">
             7/24 hizmet veren taksi durağımıza aşağıdaki iletişim bilgilerinden ulaşabilirsiniz.
           </p>
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Information */}
-          <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg">
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+          <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
+            <h3 className="text-2xl font-bold text-white mb-6">
               İletişim Bilgilerimiz
             </h3>
             
@@ -90,8 +90,8 @@ const Contact = () => {
           </div>
           
           {/* Map */}
-          <div className="bg-white dark:bg-gray-800 p-8 rounded-lg shadow-lg h-full">
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+          <div className="bg-gray-800 p-8 rounded-lg shadow-lg h-full">
+            <h3 className="text-2xl font-bold text-white mb-6">
               Bize Ulaşın
             </h3>
             
@@ -110,7 +110,7 @@ const Contact = () => {
               ></iframe>
             </div>
             
-            <p className="text-gray-600 dark:text-gray-400">
+            <p className="text-gray-400">
               Haritada gösterilen konumumuzdan 7/24 taksi hizmetimize ulaşabilirsiniz. İhtiyacınız olduğunda tek bir telefon kadar uzaktayız.
             </p>
           </div>
