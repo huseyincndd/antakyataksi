@@ -13,7 +13,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4 text-yellow-500">Antakya Taksi</h3>
             <p className="text-gray-400 mb-4">
-              Antakya'nın her yerinde 7/24 güvenilir, hızlı ve konforlu ulaşım için yanınızdayız.
+              Antakya&apos;nın her yerinde 7/24 güvenilir, hızlı ve konforlu ulaşım için yanınızdayız.
             </p>
             <div className="flex space-x-4 mt-4">
               <a href="#" className="text-gray-400 hover:text-yellow-500 transition-colors">

@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { FaPhone, FaCarAlt } from 'react-icons/fa';
 
 const Header = () => {

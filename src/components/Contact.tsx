@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import { FaPhone, FaMapMarkerAlt, FaClock, FaEnvelope } from 'react-icons/fa';
 
 interface ContactInfoProps {

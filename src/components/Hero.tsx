@@ -28,11 +28,11 @@ const Hero = () => {
       <div className="container mx-auto px-4 relative z-30 h-full flex flex-col justify-center">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-            <span className="text-yellow-500">Antakya</span>'nın Güvenilir Taksi Hizmeti
+            <span className="text-yellow-500">Antakya</span>&apos;nın Güvenilir Taksi Hizmeti
           </h1>
           
           <p className="text-xl text-gray-200 mb-8">
-            7/24 profesyonel şoförlerimiz ve konforlu araçlarımızla Antakya'nın her noktasına güvenli ve hızlı ulaşım sağlıyoruz.
+            7/24 profesyonel şoförlerimiz ve konforlu araçlarımızla Antakya&apos;nın her noktasına güvenli ve hızlı ulaşım sağlıyoruz.
           </p>
           
           {/* CTA Button - Phone Number Highlight */}

@@ -56,16 +56,16 @@ const About = () => {
           {/* Content section */}
           <div className="w-full lg:w-1/2">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              Antakya'nın Güvenilir Taksi Durağı
+              Antakya&apos;nın Güvenilir Taksi Durağı
             </h2>
             <div className="w-24 h-1 bg-yellow-500 mb-6"></div>
             
             <p className="text-gray-600 dark:text-gray-400 mb-6">
-              2005 yılından bu yana Antakya'da hizmet veren taksi durağımız, müşteri memnuniyetini ön planda tutarak kaliteli hizmet sunmaya devam ediyor. Modern araç filomuz ve profesyonel sürücülerimizle şehrin her noktasına güvenli ulaşım sağlıyoruz.
+              2005 yılından bu yana Antakya&apos;da hizmet veren taksi durağımız, müşteri memnuniyetini ön planda tutarak kaliteli hizmet sunmaya devam ediyor. Modern araç filomuz ve profesyonel sürücülerimizle şehrin her noktasına güvenli ulaşım sağlıyoruz.
             </p>
             
             <p className="text-gray-600 dark:text-gray-400 mb-8">
-              Misyonumuz, yolcularımızın güvenliğini ve konforunu en üst düzeyde tutarak, dakik ve profesyonel hizmet sunmaktır. Vizyonumuz ise Antakya'nın en güvenilir ve tercih edilen taksi durağı olmaktır.
+              Misyonumuz, yolcularımızın güvenliğini ve konforunu en üst düzeyde tutarak, dakik ve profesyonel hizmet sunmaktır. Vizyonumuz ise Antakya&apos;nın en güvenilir ve tercih edilen taksi durağı olmaktır.
             </p>
             
             <div className="mb-8">

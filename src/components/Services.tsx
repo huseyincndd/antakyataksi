@@ -80,7 +80,7 @@ const Services = () => {
           </h2>
           <div className="w-24 h-1 bg-yellow-500 mx-auto"></div>
           <p className="text-gray-600 dark:text-gray-400 mt-4 max-w-xl mx-auto">
-            Antakya'nın her noktasına, her saatte kaliteli taksi hizmeti sunuyoruz. Size özel çözümlerimiz ile tanışın.
+            Antakya&apos;nın her noktasına, her saatte kaliteli taksi hizmeti sunuyoruz. Size özel çözümlerimiz ile tanışın.
           </p>
         </div>
         
